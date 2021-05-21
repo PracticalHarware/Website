@@ -1,0 +1,127 @@
+.func_subHead {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.func_Head {
+	font-size: 1.5em;
+}
+
+.end_neomorp {
+	-webkit-border-radius: 63px; 
+	border-radius: 63px; 
+	background: #fafafa;
+	-webkit-box-shadow: 23px 23px 46px #a3a3a3,
+	-23px -23px 46px #ffffff;
+	box-shadow: 23px 23px 46px #a3a3a3,
+	-23px -23px 46px #ffffff;
+}
+
+.name_neomorp {
+	-webkit-border-radius: 43px; 
+	border-radius: 43px; 
+	background: #dddcdc;
+	-webkit-box-shadow: 26px 26px 59px #8d8d8d,
+	-26px -26px 59px #ffffff;
+	box-shadow: 26px 26px 59px #8d8d8d,
+	-26px -26px 59px #ffffff;
+}
+
+#content17-f{
+	padding-bottom: 3rem;
+}
+
+.feedback {
+	margin-top: 30px;
+}
+
+.feedback-sec{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	flex-direction: column;
+}
+
+.feedback-cont {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+
+.form-group {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.form-group input, .form-group textarea {
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button[type = "submit"] {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	background-color: #6592e6;
+    border-color: #6592e6;
+    color: #ffffff;
+    transition: 0.3s ease background-color;
+}
+
+button[type = "submit"]:hover {
+	background-color: #007bff;
+}
+
+/*#status {
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-right: 8px;
+}
+
+#status.success {
+	background-color: rgb(211,250,153);
+	animation: status 4s ease forwards;
+	color: white;
+}
+
+#status.error {
+	background-color: rgb(250,129,92);
+	animation: status 4s ease forwards; 
+	color: white;
+}
+*/
+
+/*@keyframes status {
+	0%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	90%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	100%{
+		opacity: 0;
+		pointer-events: none;
+	}
+}*/

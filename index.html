@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+  <link rel="stylesheet" type="text/css" href="styles.css">
   
   
   
@@ -105,10 +105,6 @@
 
 <section class="content17 cid-svvshgFj3K" id="content17-f">
 
-    
-
-    
-    
     <div class="container">
         
             <div class="row justify-content-center">
@@ -123,7 +119,7 @@
                         <div class="card mb-3">
                             <div class="card-header" role="tab" id="headingOne">
                                 <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_3" aria-expanded="false" aria-controls="collapse1">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Hardware Used</strong>
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7 func_Head"><strong>Hardware Used</strong>
                                 </h6>
                                     <span class="sign mbr-iconfont mbri-arrow-down"></span>
                                 </a>
@@ -144,7 +140,7 @@
                         <div class="card mb-3">
                             <div class="card-header" role="tab" id="headingTwo">
                                 <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_3" aria-expanded="false" aria-controls="collapse2">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Software Used</strong>
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7 func_Head"><strong>Software Used</strong>
                                 </h6>
                                     <span class="sign mbr-iconfont mbri-arrow-down"></span>
                                 </a>
@@ -162,7 +158,7 @@
                         <div class="card mb-3">
                             <div class="card-header" role="tab" id="headingThree">
                                 <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_3" aria-expanded="false" aria-controls="collapse3">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Functions That Can Be Performed</strong>
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7 func_Head"><strong>Functions That Can Be Performed</strong>
                                 </h6>
                                     <span class="sign mbr-iconfont mbri-arrow-down"></span>
                                 </a>
@@ -171,11 +167,26 @@
                                 <div class="panel-body">
                                     <p class="mbr-fonts-style panel-text display-7">
                                       <ol>
-                                            <li>Side Impact/Object detection</li>
-                                            <li> Pedestrian/vehicle detection</li>
-                                            <li>Speech Recognition </li>
-                                            <li>Convenient GUI to help aid in motion</li>
-                                            <li>Audio Assistant</li>
+                                            <li>
+                                                <span class = "func_subHead"> Side Impact/Object detection: </span> <br>
+                                                The proposed device integrates the Arduino UNO and the HCSR04 Ultrasonic sensor which is located on either sides of the device, to equip the individual with impact detection technology. Impact detection functions when a person or an object comes within 0.25 meters of the range of the device, it responds to this by simultaneously emitting an audible sound and illuminating a red – LED attached to the device, to caution the user against the approaching person/vehicle.
+                                            </li><br>
+                                            <li>
+                                                <span class = "func_subHead"> Pedestrian/vehicle detection: </span><br>
+                                                The library OpenCV mentioned above is implemented in the device, to detect and differentiate pedestrians and vehicles approaching the individual and notify the user of the approaching object/person through voice output.
+                                            </li><br>
+                                            <li>
+                                                <span class = "func_subHead"> Speech Recognition:</span><br>
+                                                The device employs convenient GUI (Graphical User Interface) to help aide uninterrupted motion of the user. It constructs a platform which allows communication between the device and the individual to help guide the person through several actions, for instance navigating to
+                                                a voice - inputted destination, playing music or reducing the volume of the voice-output.
+                                            </li><br>
+                                            <li>
+                                                <span class = "func_subHead"> Convenient GUI to help aid in motion </span><br>
+                                            </li><br>
+                                            <li>
+                                                <span class = "func_subHead"> Audio Assistant – ‘HELEN’: </span><br>
+                                                As mentioned above, our device offers information to the user using voice-output, this is achieved through our own Audio Assistant named ‘Helen’. Helen is a virtual assistant designed to support the user with appropriate responses to the above functions.
+                                            </li>
                                         </ol>
                                       <br></p>
                                 </div>
@@ -184,7 +195,7 @@
                         <div class="card mb-3">
                             <div class="card-header" role="tab" id="headingThree">
                                 <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse4_3" aria-expanded="false" aria-controls="collapse4">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Functions to be Made Available in&nbsp; the Near Future</strong></h6>
+                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7 func_Head"><strong>Functions to be Made Available in&nbsp; the Near Future</strong></h6>
                                     <span class="sign mbr-iconfont mbri-arrow-down"></span>
                                 </a>
                             </div>
@@ -200,6 +211,71 @@
                 </div>
             </div>
         </div>
+</section>
+
+<section class="pricing1 cid-svBYYpnXA6" id="pricing1-m">
+    
+    <div class="container blocks-set">
+
+        <div class="row justify-content-center">
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper end_neomorp">
+                    <div class="card-box align-left">
+                        <h6 class="card-title mbr-fonts-style mb-4 display-2">
+                            <strong>Website Code</strong></h6>
+                        <ul class="list mbr-fonts-style mb-5 display-7">Have a look at our Websites Code</ul>
+                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="https://github.com/PracticalHarware/Website" target="_blank">Learn more</a></div>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper end_neomorp">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mb-4 mbr-fonts-style display-2">
+                            <strong>Hardware Code</strong></h4>
+                        <p class="mbr-text mbr-fonts-style mb-5 display-7">
+                            Have a look at the code that went into our product<br>
+                        </p>
+                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="https://github.com/PracticalHarware/Speranza-Cieca" target="_blank">Learn more</a></div>
+                </div>
+            </div>
+
+            <div class="card col-12 col-lg-12 feedback">
+                <div class="card-wrapper end_neomorp">
+                    <div class="card-box align-left">
+                        <section class="feedback-sec">
+                            <div class="feedback-cont">
+                                <h4 class="card-title mb-4 mbr-fonts-style display-2">
+                                <strong>Feedback</strong></h4>
+                                <form action="contact-form-handler.php">
+                                    <div class = "form-group">
+                                        <label for = "name">Name</label>
+                                        <input type="text" id = "name" name="name"> 
+                                    </div>
+
+                                    <div class = "form-group">
+                                        <label for = "email">Email</label>
+                                        <input type="email" id = "email" name="email"> 
+                                    </div>
+                                    
+                                    <div class = "form-group">
+                                        <label for = "message">Message</label>
+                                        <textarea name = "message" id = "message" cols = "30" rows="10"></textarea>
+                                    </div>
+
+                                    <button type="submit">Submit</button>
+
+                                </form>
+                            </div>
+                            <!-- <div id = "status" class="error">Success</div> -->
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="team1 cid-svvtHkrVjS" id="team1-g">
@@ -233,7 +309,7 @@
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
+                <div class="card-wrap .name_neomorp">
                     <div class="image-wrap">
                         <img src="assets/images/whatsapp-image-2021-04-24-at-10.13.24-pm-506x771.jpg" alt="Nihal Srivastava">
                     </div>
@@ -408,39 +484,7 @@
     </div>
 </section>
 
-<section class="pricing1 cid-svBYYpnXA6" id="pricing1-m">
 
-    
-
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="card col-12 col-lg-6">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h6 class="card-title mbr-fonts-style mb-4 display-2">
-                            <strong>Website Code</strong></h6>
-                        <ul class="list mbr-fonts-style mb-5 display-7">Have a look at our Websites Code</ul>
-                    </div>
-                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="https://github.com/PracticalHarware/Website" target="_blank">Learn more</a></div>
-                </div>
-            </div>
-
-            <div class="card col-12 col-lg-6">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h4 class="card-title mb-4 mbr-fonts-style display-2">
-                            <strong>Hardware Code</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mb-5 display-7">
-                            Have a look at the code that went into our product<br>
-                        </p>
-                    </div>
-                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="https://github.com/PracticalHarware/Speranza-Cieca" target="_blank">Learn more</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="footer7 cid-svvy91qCwB" once="footers" id="footer7-j">
 
@@ -455,7 +499,7 @@
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="#" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/f" style="color:#aaa;"></a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/f" style="color:#aaa;"></a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 </body>
