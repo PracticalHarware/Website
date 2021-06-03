@@ -1,3 +1,4 @@
+![banner](https://github.com/PracticalHarware/Website/blob/main/Moody%20Mountains%20-%20Canva%20Banner.gif)
 This is the main website for Speranza Cieca. Have a look!
 
 Link : [![Portfolio Badge](https://img.shields.io/badge/portfolio-web-blue?style=flat&link=https://practicalharware.github.io/Website//)](https://practicalharware.github.io/Website/)
